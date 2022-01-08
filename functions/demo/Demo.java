@@ -1,21 +1,24 @@
 package functions.demo;
 
 public class Demo {
-
-    public static void function1(){
+    // No Return, No Parameter
+    public static void function1() {
         System.out.println("Hello");
     }
 
-    public static void function2(int a){
+    // No Return with Parameter
+    public static void function2(int a) {
         System.out.println(a);
     }
 
-    public static int function3(){
-        return 10+20;
+    // Return, No Parameter
+    public static int function3() {
+        return 10 + 20;
     }
 
-    public static int function4(int x, int y, int z){
-        return x+y+z;
+    // Return with Parameter
+    public static int function4(int x, int y, int z) {
+        return x + y + z;
 
     }
 
@@ -27,7 +30,7 @@ public class Demo {
         System.out.println(ans);
         int anssum = function4(10, 15, 25);
         System.out.println(anssum);
-        
+
     }
-    
+
 }
