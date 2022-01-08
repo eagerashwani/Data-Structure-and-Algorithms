@@ -1,4 +1,4 @@
-package fibonacci;
+package Basics.fibonacci;
 
 import java.util.Scanner;
 
