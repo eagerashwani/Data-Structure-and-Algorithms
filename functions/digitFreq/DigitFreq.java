@@ -14,8 +14,8 @@ public class DigitFreq {
     public static int getDigitFrequency(int n, int d) {
         int temp = 0;
         while (n > 0) {
-            int rem = n % 10;
-            n = n / 10;
+            int rem = n % 10;  // last digit nikal rhe
+            n = n / 10;  // number ko reduce kr rhe
             if (rem == d) {
                 temp++;
             }
