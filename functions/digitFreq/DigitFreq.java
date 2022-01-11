@@ -16,7 +16,8 @@ public class DigitFreq {
         while (n > 0) {
             int rem = n % 10;  // last digit nikal rhe
             n = n / 10;  // number ko reduce kr rhe
-            if (rem == d) {
+            if (rem ==d) {
+                
                 temp++;
             }
         }
