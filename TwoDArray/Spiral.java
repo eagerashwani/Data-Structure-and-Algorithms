@@ -23,8 +23,7 @@ public class Spiral {
         int maxr = n-1;
         int maxc = m-1;
 
-        while(){
-        }
+        
     }
 
     public static void main(String[] args) {
