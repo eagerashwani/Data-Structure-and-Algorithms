@@ -28,6 +28,42 @@ public class Main {
       }
       size++;
     }
+  public void addFirst(int val) {
+      Node temp = new Node();
+      temp.data = val;
+      if(size==0){
+        head = tail = temp;
+      }else{
+        temp.next = head;
+        head = temp;
+      }
+      size++;
+    }
+    public int size(){
+      return size;
+    }
+
+    public void display(){
+      Node curr = head;
+      while(curr!=null){
+        System.out.print(curr.data+" ");
+        curr = curr.next;
+      }
+      System.out.println();
+    }
+
+    public void removeFirst(){
+      if(size==0){
+        System.out.println("Linked List is empty");
+      }
+      else if(size == 1){
+        head = tail = null;
+      }
+      else{
+        head = head.next;
+      }
+      size--;
+    }
   }
 
   public static void testList(LinkedList list) {
