@@ -25,8 +25,8 @@ public class Main{
     Scanner scn = new Scanner(System.in);
     int n = scn.nextInt();
 
-   int pZero = 1;
-   int pOne = 1;
+    int pZero = 1;
+    int pOne = 1;
 
 
     for(int i = 2; i<=n; i++){
